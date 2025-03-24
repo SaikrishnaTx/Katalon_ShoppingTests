@@ -33,6 +33,7 @@ public class Login {
 
 		WebUI.openBrowser(applicationURL)
 		WebUI.waitForPageLoad(GlobalVariable.waitPresentTimeout)
+		WebUI.deleteAllCookies()
 		WebUI.maximizeWindow()
 
 		WebUI.waitForElementVisible(findTestObject('Pages/MyAccount page/nav_HomeMyaccount'), GlobalVariable.waitPresentTimeout)
