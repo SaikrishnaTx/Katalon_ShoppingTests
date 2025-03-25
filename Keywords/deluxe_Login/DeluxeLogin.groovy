@@ -67,6 +67,7 @@ public class DeluxeLogin {
 			println("Failed to Login to The Application")
 			WebUI.comment("Failed to Login to The Application")
 			WebUI.takeScreenshot()
+			WebUI.takeFullPageScreenshot()
 			
 			}else {
 			
